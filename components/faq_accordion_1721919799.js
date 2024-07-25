@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1721919799', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Your Book Buying Questions Answered</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get the details on how our book marketplace works</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1721919799', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "How do I buy books on the platform?",
+          a: "Buying books is easy! Simply browse our extensive catalog, add titles to your cart, and checkout securely. We accept all major payment methods."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "Can I sell my used books too?",
+          a: "Absolutely! We have a seamless process for listing and selling your gently used books. Just create a seller account and start listing."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "What shipping options are available?",
+          a: "We offer fast and affordable shipping options to fit your needs, including expedited delivery for those must-read books."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "Are there any membership benefits?",
+          a: "Yes, our annual membership provides unlimited free shipping, exclusive discounts, and early access to new releases and special editions."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "How do I track my order status?",
+          a: "Once your order ships, you'll receive a tracking number that allows you to follow its journey right to your doorstep via our website or mobile app."
         }
       ]
     }
